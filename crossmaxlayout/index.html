@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Онлайн магазин - Головна</title>
+    <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+<header>
+    <div id="top">
+
+        <img id="logo" alt="Logo" src="src/logo.png">
+
+        <form id="search" action="">
+            <button class="search" id="si"><img alt="searchIcon" src="src/search.svg"></button>
+            <label><input class="search text" type="text" placeholder="Пошук..." name="search"></label>
+        </form>
+
+        <p class="text" id="phoneNumber">+38(099)-056-82-23</p>
+
+        <div id="icons">
+            <button class="icon"><img alt="trolleyIcon" src="src/trolley.svg"></button>
+            <button class="icon"><img alt="trolleyIcon" src="src/user.svg"></button>
+        </div>
+
+    </div>
+
+    <div>
+        <div id="nav">
+            <a class="text links" href="index.html">ГОЛОВНА</a>
+            <a class="text links" href="pages/mans.html">ЧОЛОВІЧІ</a>
+            <a class="text links" href="pages/womans.html">ЖІНОЧІ</a>
+            <a class="text links" href="pages/kids.html">ДИТЯЧІ</a>
+            <a class="text links" href="pages/blog.html">БЛОГ</a>
+            <a class="text links" href="#footerContent">КОНТАКТИ</a>
+        </div>
+    </div>
+
+</header>
+
+<div id="content">
+    <div id="bigImg">
+        <img id="big" alt="image with sales" src="src/bigImage.png">
+        <button class="text sale" onclick="">ЗАМОВИТИ</button>
+    </div>
+
+    <div id="info">
+        <div class="info">
+            <button class="linkInfo" ><img alt="ShippedIcon" src="src/package.svg"></button>
+            <a class="text">Доставка</a>
+        </div>
+        <div class="info">
+            <button class="linkInfo"><img alt="ServiceIcon" src="src/service.svg"></button>
+            <a class="text">Підтримка</a>
+        </div>
+        <div class="info">
+            <button class="linkInfo"><img alt="PaymentIcon" src="src/wallet.svg"></button>
+            <a class="text">Оплата</a>
+        </div>
+    </div>
+
+    <p class="text" id="popular">Популярні товари</p>
+
+    <div class="templates" id="pop">
+        <div class="templates units" id="mans">
+            <a class="shopUnit" href="">
+                <img alt="unitImage" src="./src/goods/adidas1.png"/>
+
+                <div class="text shopUnitName">
+                    Adidas Gazelle
+                </div>
+
+                <div class="text shopUnitPrice">
+                    1 990,00 грн
+                </div>
+            </a>
+            <a class="shopUnit" href="">
+                <img alt="unitImage" src="./src/goods/nike1.png"/>
+
+                <div class="text shopUnitName">
+                    Nike MX-720
+                </div>
+
+                <div class="text shopUnitPrice">
+                    4 999,00 грн
+                </div>
+            </a>
+            <a class="shopUnit" href="">
+                <img alt="unitImage" src="./src/goods/puma1.png"/>
+
+                <div class="text shopUnitName">
+                    Puma Suede Classic
+                </div>
+
+                <div class="text shopUnitPrice">
+                    2 990,00 грн
+                </div>
+            </a>
+            <a class="shopUnit" href="">
+                <img alt="unitImage" src="./src/goods/airmax270.png"/>
+
+                <div class="text shopUnitName">
+                    Nike Air Max 270
+                </div>
+
+                <div class="text shopUnitPrice">
+                    3 109,00 грн
+                </div>
+            </a>
+            <a class="shopUnit" href="">
+                <img alt="unitImage" src="./src/goods/adidasyeezy.jpg"/>
+
+                <div class="text shopUnitName">
+                    Adidas Yeezy
+                </div>
+
+                <div class="text shopUnitPrice">
+                    3 390,00 грн
+                </div>
+            </a>
+            <a class="shopUnit" href="">
+                <img alt="unitImage" src="./src/goods/nike-zoom.png"/>
+
+                <div class="text shopUnitName">
+                    Nike Zoom
+                </div>
+
+                <div class="text shopUnitPrice">
+                    1 849,00 грн
+                </div>
+            </a>
+            <a class="shopUnit" href="">
+                <img alt="unitImage" src="./src/goods/reebok2.png"/>
+
+                <div class="text shopUnitName">
+                    Reebok
+                </div>
+
+                <div class="text shopUnitPrice">
+                    1 890,00 грн
+                </div>
+            </a>
+            <a class="shopUnit" href="">
+                <img alt="unitImage" src="./src/goods/uabandit.png"/>
+
+                <div class="text shopUnitName">
+                    Under Armour Bandit
+                </div>
+
+                <div class="text shopUnitPrice">
+                    2 690,00 грн
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div id="footerContent">
+        <form id="mailInput">
+            <label><input class="input text" type="text"
+                          placeholder="Введіть свою електронну адресу" name="mailInput"></label>
+        </form>
+        <div id="social">
+            <button class="social"><img alt="instagramIcon" src="src/instagram.svg"></button>
+            <button class="social"><img alt="facebookIcon" src="src/facebook.svg"></button>
+            <button class="social"><img alt="twitterIcon" src="src/twitter.svg"></button>
+            <button class="social"><img alt="telegramIcon" src="src/telegram.svg"></button>
+            <button class="social"><img alt="linkedinIcon" src="src/linkedin.svg"></button>
+            <button class="social"><img alt="googleIcon" src="src/google.svg"></button>
+        </div>
+        <hr id="footerLine">
+        <p class="text">©2021 Web development</p>
+
+    </div>
+</footer>
+
+</body>
+
+</html>
